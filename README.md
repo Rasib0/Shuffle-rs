@@ -1,16 +1,17 @@
-String Shuffler
+# String Shuffler
 
 This is a command-line tool written in Rust that allows you to randomly shuffle a given string.
 Prerequisites
 
 To use this tool, you need to have Rust and Cargo installed on your system. If you don't have Rust installed, you can get it from the official Rust website: https://www.rust-lang.org/tools/install
-Usage
 
-    Clone or download this repository to your local machine.
+## Usage
 
-    Open a terminal or command prompt and navigate to the project directory.
+Clone or download this repository to your local machine.
 
-    Build the project by running the following command:
+Open a terminal or command prompt and navigate to the project directory.
+
+Build the project by running the following command:
 
 ```sh
 cargo build --release
@@ -22,9 +23,9 @@ After a successful build, you can find the executable file in the target/release
 
 Run the tool by executing the following command:
 
-arduino
-
+```sh
 ./target/release/string_shuffler <input_string>
+```
 
 Replace <input_string> with the string you want to shuffle. The tool will shuffle the characters of the input string and display the shuffled string as output.
 
@@ -37,7 +38,7 @@ Output:
 ```
     Shuffled string: dHleW,rlo o!
 ```
-License
+## License
 
 This project is licensed under the MIT License.
 

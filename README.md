@@ -43,10 +43,12 @@ Output:
 This project is licensed under the MIT License.
 
 Feel free to use, modify, and distribute this code according to the terms of the license.
-Contributing
+
+## Contributing
 
 If you encounter any issues with the tool or have suggestions for improvement, please open an issue on the GitHub repository or submit a pull request. Contributions are welcome!
-Acknowledgements
+
+##Acknowledgements
 
 This tool was developed using the Rust programming language and the following libraries:
 

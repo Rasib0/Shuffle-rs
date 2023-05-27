@@ -1,18 +1,19 @@
 use rand::seq::SliceRandom;
 use rand::thread_rng;
-// use std::env;
+ use std::env;
 
 fn main() {
-    //     // Get the input string from command line arguments
-    // let args: Vec<String> = env::args().collect();
+         // Get the input string from command line arguments
+    let args: Vec<String> = env::args().collect();
     
-    // if args.len() < 2 {
-    //     println!("Usage: cargo run -- <input_string>");
-    //     return;
-    // }
-    // let input_string = &args[1];
+    if args.len() < 2 {
+    println!("Usage: cargo run -- <input_string>");
+        return;
+    }
+    let input_string = &args[1];
 
-    let input_string = "1234567890qzdynfoem,./[]{}/|!@#$%^&*()";
+    //let input_string = "1234567890qzdynfoem,./[]{}/|!@#$%^&*()";
+    
     print!("{}", shuffle_string(input_string));
     println!("{}", shuffle_string(input_string));
 
